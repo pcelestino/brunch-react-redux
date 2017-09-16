@@ -1,0 +1,31 @@
+{
+  "name": "brunch-react-redux-sass-app",
+  "description": "Brunch React Redux Sass application",
+  "private": true,
+  "author": "Brunch",
+  "version": "0.0.1",
+  "repository": "",
+  "scripts": {
+    "start": "brunch watch --server",
+    "clear-build": "rimraf public/*",
+    "build": "npm run clear-build && brunch build --production"
+  },
+  "dependencies": {
+    "react": "^15.4",
+    "react-dom": "^15.4",
+    "react-redux": "~5.0.6",
+    "redux": "~3.7.2"
+  },
+  "devDependencies": {
+    "auto-reload-brunch": "^2",
+    "babel-brunch": "~6.1.1",
+    "babel-preset-latest": "^6",
+    "babel-preset-react": "~6.24",
+    "brunch": "^2",
+    "clean-css-brunch": "^2",
+    "hmr-brunch": "^0.1",
+    "rimraf": "^2.6.2",
+    "sass-brunch": "^2.10.4",
+    "uglify-js-brunch": "^2"
+  }
+}
